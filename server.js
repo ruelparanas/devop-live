@@ -2,7 +2,7 @@
 const http = require('node:http');
 
 // Change these two lines during the demo.
-const MESSAGE = 'Walang kanin buseng!?';
+const MESAGE = 'Walang kanin buseng!?';
 const COLOR = '#1F6FEB';
 
 // The hosting platform tells us which commit is running (Render sets RENDER_GIT_COMMIT).
