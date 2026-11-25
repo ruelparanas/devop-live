@@ -23,7 +23,7 @@ function page() {
 </style>
 </head>
 <body>
-  <h1>${MESAGE}</h1>
+  <h1>${MESSAGE}</h1>
   <p>Deployed automatically by a CI/CD pipeline</p>
   <p>Version: ${VERSION}</p>
 </body>
