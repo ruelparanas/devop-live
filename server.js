@@ -1,9 +1,8 @@
 
 const http = require('node:http');
-
-// Change these two lines during the demo.
+//message we see on the page
 const MESSAGE = 'Walang kanin buseng!?';
-const COLOR = '#1F6FEB';
+const COLOR = '#093372';
 
 // The hosting platform tells us which commit is running (Render sets RENDER_GIT_COMMIT).
 const VERSION = (process.env.APP_VERSION || process.env.RENDER_GIT_COMMIT || 'local').slice(0, 7);
